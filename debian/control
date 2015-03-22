@@ -1,0 +1,13 @@
+Source: erlang-edown
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0), rebar, erlang-dev, git
+Standards-Version: 3.9.3
+Homepage: https://github.com/uwiger/edown/
+
+Package: erlang-edown
+Architecture: all
+Depends: erlang-base, erlang-edoc
+Description: EDoc extension for generating Github-flavored Markdown
+ EDoc extension for generating Github-flavored Markdown.
